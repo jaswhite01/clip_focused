@@ -1,0 +1,14 @@
+# data (data use agreement)
+data/
+*.csv
+*.json
+
+# models, containers, environments, outputs
+models/
+*.sif
+venvs/
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,3 @@
+[submodule "external/clip"]
+	path = external/clip
+	url = https://github.com/asappresearch/clip
