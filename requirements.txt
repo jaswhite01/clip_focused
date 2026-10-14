@@ -2,14 +2,14 @@
 #gensim==3.8.1
 matplotlib==3.2.1
 nltk==3.5
-numpy==1.21.6		# previous repo: numpy==1.18.1
+numpy==1.21.6		# original repo: numpy==1.18.1
 pandas==1.0.1
 scikit-learn==0.22.2.post1
 scipy==1.4.1
-tokenizers==0.8.1rc1	# previous reop: unpinned
+tokenizers==0.9.4       # original repo: unpinned
 torch==1.6.0
-tqdm==4.70.1		# previous repo: tqdm==4.43.0
-transformers==3.0.2	# previous repo: unpinned
+tqdm==4.70.1		# original repo: tqdm==4.43.0
+transformers==4.0.1     # original repo: unpinned; bert_model.py needs 4.x imports
 
 # genism has to be compiled against numpy; install seperately:
 # pip install --no-binary gensim --no-build-isolation gensim==3.8.1
