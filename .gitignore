@@ -13,3 +13,4 @@ outputs/
 __pycache__/
 *.pyc
 *.tar
+runs/
